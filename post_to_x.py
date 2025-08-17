@@ -1,12 +1,12 @@
 import requests, os, tweepy, time
 
-api_key = os.getenv("Vm67YLTZKK8YuEdsEOQ9A8fSm6LDEZ4y5q2FQ99hIM2PF2OhPD")
-api_secret = os.getenv("A5rpZWar21KMDXvz")
+api_key = os.getenv("5xDYet2k92ewaDxS8zGFPmT0w")
+api_secret = os.getenv("9eL8KDwFmBodooVOt0OgKyY5u51rZF1AnTQo0epSAf1XW1CVxb")
 access_token = os.getenv("1603109228687900675-5hU2AskV3cFckvHJMchPg6cS9Uaybg")
 access_secret = os.getenv("WB4PhkDMeaO831OIyJdJkfZSVB39AHNfF1Mz4pv61QECd")
 
 # Shoppy API
-shoppy_key = os.getenv("SHOPPY_API_KEY")
+shoppy_key = os.getenv("Vm67YLTZKK8YuEdsEOQ9A8fSm6LDEZ4y5q2FQ99hIM2PF2OhPD")
 headers = {"Authorization": shoppy_key}
 
 # Get products
