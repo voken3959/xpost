@@ -1,17 +1,9 @@
 import requests, os, tweepy, time
 
-
-auth = tweepy.OAuth1UserHandler(api_key, api_secret, access_token, access_secret)
-api = tweepy.API(auth)
-
-# Load secrets from GitHub Actions
-SHOPPY_API_KEY = os.getenv("Vm67YLTZKK8YuEdsEOQ9A8fSm6LDEZ4y5q2FQ99hIM2PF2OhPD")
-TWITTER_CONSUMER_KEY = os.getenv("Fx0kmW6052W6t52bBKhJZ4mk2")
-TWITTER_CONSUMER_SECRET = os.getenv("k12HmDVQkm3sJG0uAAt9RqW3DBgRirDzkbBpk1DjUDiDnBjDyY")
-TWITTER_ACCESS_TOKEN = os.getenv("1603109228687900675-5hU2AskV3cFckvHJMchPg6cS9Uaybg")
-TWITTER_ACCESS_SECRET = os.getenv("WB4PhkDMeaO831OIyJdJkfZSVB39AHNfF1Mz4pv61QECd")
-auth = tweepy.OAuth1UserHandler(api_key, api_secret, access_token, access_secret)
-api = tweepy.API(auth)
+api_key = os.getenv("Vm67YLTZKK8YuEdsEOQ9A8fSm6LDEZ4y5q2FQ99hIM2PF2OhPD")
+api_secret = os.getenv("A5rpZWar21KMDXvz")
+access_token = os.getenv("1603109228687900675-5hU2AskV3cFckvHJMchPg6cS9Uaybg")
+access_secret = os.getenv("WB4PhkDMeaO831OIyJdJkfZSVB39AHNfF1Mz4pv61QECd")
 
 # Shoppy API
 shoppy_key = os.getenv("SHOPPY_API_KEY")
